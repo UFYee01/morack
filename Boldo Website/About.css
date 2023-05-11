@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');  
+
+body{
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+header{
+    padding: 2rem;
+    background-color: #0A2640;
+}
+
+/* nav */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-links{
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#nav-liks, a{
+    text-decoration: none;
+    color: white;
+}
+
+#bt1{
+    text-decoration: none;
+    color: #0A2640;
+    width: 6rem;
+    height: 2rem;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1rem white;
+    border-radius: 5rem;
+}
+
+#bt1:hover{
+    background-color: #0A2640;
+    color: white;
+}
+
+#header{
+    margin-bottom: 1rem;
+}
+
+#header-msg{
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}
+
+#header-msg p{
+    font-size: 3rem;
+}
+
+#sec-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -5rem;
+}
+
+.grid1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#sec-2{
+    padding-left: 10rem;
+    margin: 5rem;
+}
+
+#sec-2 #sec-3, p{
+    font-size: 2rem;
+}
+
+#sec-3{
+    background-color: #0A2640;
+    color: white;
+    padding: 4rem;
+    text-align: center;
+}
+
+#sec-3 div{
+    color: #65E4A3;
+    font-size: 4rem;
+}
+
+.sec-3-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#sec-3-info, .info  p{
+    color: white;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+#sec-4{
+    padding: 4rem;
+}
+
+.sec-4-msg{
+    padding-left: 10rem;
+}
+
+.sec-4-TM{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+}
+
+.sec-4-TM p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#sec-5{
+    background-color: #0A2640;
+    color: white;
+    padding: 6rem;
+}
+
+.sec-5-msg{
+    padding-left: 11rem;
+}
+
+.sec-5-cards{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;   
+}
+
+.sec-5-card{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+}
+
+.sec-5-card img{
+    width: 20%;
+}
+
+#sec-6{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    margin: 5rem;
+    padding: 3rem;
+    background-color: #0A2640;
+}
+
+.ipt{
+    padding: 0.7rem;
+    border-radius: 2rem;
+    width: 15rem;
+}
+
+#bt3{
+    background-color: #65E4A3;
+    color: #0A2640;
+    border: 1rem #65E4A3;
+    width: 8rem;
+    padding: 0.7rem;
+    border-radius: 5rem;
+    text-align: center;
+}
+
+.s-ipt{
+    display: flex;
+    justify-content: center;    
+    gap: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem;
+}
+
+.footer-msg p{
+    font-size: smaller;
+}
+
+.links{
+    display: flex;
+    align-content: center;
+    gap: 10rem;
+    margin-top: -3rem;
+}
+
+.links ul{
+    list-style: none;   
+    line-height: 3rem;
+}

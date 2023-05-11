@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+body{
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+/* nav */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+}
+
+#nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: #0A2640;
+    gap: 2rem;
+}
+
+#nav-links a{
+    text-decoration: none;
+    color: #0A2640;
+}
+
+#bt1{
+    text-decoration: none;
+    color: #0A2640;
+    width: 6rem;
+    height: 2rem;
+    padding: 1rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+}
+
+#bt1:hover{
+    background-color: #0A2640;
+    color: white;
+    margin-bottom: 4rem;
+    transition: 0.5s;
+    border: 0;
+}
+
+
+.hamburger{
+    display: none;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+/* Body */
+
+#flex-container, #illu-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 1rem;
+}
+
+#flex-container .p1 h1{
+    font-size: 3rem;
+}
+
+#F-bts{
+    display: flex;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+#F-bts #bt1{
+    width: 10rem;
+}
+
+
+.sec1{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.illu1{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.6s;
+}
+
+.lg{
+    margin-left: 3rem;
+}
+
+
+#sec-2{
+    background-color: #0A2640;
+    text-align: center;
+    color: white;
+    padding: 3rem;
+}
+
+#sec-3{
+    margin: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tg{
+    padding: 1rem;
+}
+
+#sec-4{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sec-5{
+    background-color: #0A2640;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.sec-5msg{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.bt2{
+    border: 0;
+    border-radius: 100%;
+    box-sizing: border-box;
+    background-color: #0A2640;
+    gap: 10;
+}
+
+.bt2 img{
+    width: 75%;
+}
+
+#card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: white;
+    color: black;
+    border: 0.4rem white;
+    border-radius: 2rem;
+    padding: 2.5rem;
+    font-size: 1rem;
+}
+
+.ss-cont{
+    display: flex;
+    text-align: right;
+    font-size: 0.6rem;
+}
+
+.img1{
+    position: relative;
+}
+
+#sec-6{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.open-cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    text-align: left;
+}
+
+.open-cont h1{
+    font-size: 2rem;
+}
+
+.f-txt{
+    text-align: center;
+}
+
+.f-txt h1{
+    font-size: 2rem;
+}
+
+.cont-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.s-txt span{
+    color: #0A2640;
+    font-weight: 1000;
+}
+
+.s-txt w{
+    font-size: 70%;
+}
+
+.info{
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+#sec-8{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    margin: 5rem;
+    padding: 3rem;
+    background-color: #0A2640;
+}
+
+.ipt{
+    padding: 0.7rem;
+    border-radius: 2rem;
+    width: 15rem;
+}
+
+#bt3{
+    background-color: #65E4A3;
+    color: #0A2640;
+    border: 1rem #65E4A3;
+    width: 8rem;
+    padding: 0.7rem;
+    border-radius: 5rem;
+    text-align: center;
+}
+
+.s-ipt{
+    display: flex;
+    justify-content: center;    
+    gap: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem;
+}
+
+.footer-msg p{
+    font-size: smaller;
+}
+
+.links{
+    display: flex;
+    align-content: center;
+    gap: 10rem;
+    margin-top: -3rem;
+}
+
+.links ul{
+    list-style: none;   
+    line-height: 3rem;
+}
